@@ -1,15 +1,27 @@
 hive.vim
 ========
 
-Vim syntax highlighting for hive
+Description
+-----------
 
+Vim syntax highlighting for [Hive](https://hive.apache.org/).
 
-Append these line to ~/.vimrc:
+Installation
+------------
 
-```
-" for .hql files
-au BufNewFile,BufRead *.hql set filetype=hive expandtab
+### Vundle (Recommended)
+1. To install this plugin using [Vundle.vim](https://github.com/VundleVim/Vundle.vim) add the following configuration to your `.vimrc`.
 
-" for .q files
-au BufNewFile,BufRead *.q set filetype=hive expandtab
-```
+        Plugin 'dsfcode/hive.vim.git'
+
+2. Install with `:PluginInstall`.
+
+### Pathogen
+1. Install this plugin using [Pathogen.vim](https://github.com/tpope/vim-pathogen).
+
+        cd ~/.vim/bundle
+        git clone https://github.com/dsfcode/hive.vim.git
+
+### Manually
+1. Put files under ~/.vim/ folder.
+
